@@ -1,0 +1,44 @@
+ PSEUDO KOD
+  
+------------------------------------------------------------------------------------------
+-Databas
+* Lägga till Kortnummer kolumn
+   * Datatyp VARCHAR 4 tecken
+* Lägga till bankkort Pin kolumn
+    * Datatyp VARCHAR 4 tecken
+* Lägga till spärrad kolumn
+   *  Datatyp VARCHAR 3 tecken (JA/NEJ)
+ 
+       * Göra en DUMP/backup på databasen och lagra den i XAMPP
+-------------------------------------------------------------------------------------------
+- Kod
+* Mata in kort (Trycker på KORT knappen)
+         Netbeans Terminal:
+                            * Dialog -> Skriv ditt kortnummer : 
+                                 * Tryck på Enter knappen 
+                                      * Lagra kortnummer i en variabel.
+                                            * Datatyp = String.
+                             
+                 
+                           Bank App GUI:
+                          * Do something ... .            
+
+              * Knappa in kortnummer 
+                    Netbeans Terminal:
+                       * Dialog -> Skriv ditt kortnummer  :
+                              
+                          * Knappa in kod
+                      * Dialog -> Skriv din PIN : 
+        
+                            Bank App GUI:
+                            * Do something ... .
+* Knappa in kod 
+* Ansluta till databas
+* Skicka en SQL fråga till databasn
+*  Finns det ett kort som matchar PIN.
+  * Matchar kort+PIN visa Välkommen dialog/meny
+      * Finns inte ett kort som matchar PIN, 
+          * Nytt försök på PIN
+             * Om man failat 3 ggr, spärra kort.
+                 * ändra spärrad kolumn från 0 till 1
+                   
